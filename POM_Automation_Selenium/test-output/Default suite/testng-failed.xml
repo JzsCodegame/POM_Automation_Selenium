@@ -3,17 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Sprint1.Day1">
+      <class name="Sprint1.Day2">
         <methods>
           <include name="setup"/>
-          <include name="verifyHomepageTitle"/>
-          <include name="verifySignupForm"/>
-          <include name="verifySigninPage"/>
-          <include name="getUrl"/>
-          <include name="closeBrowser"/>
-          <include name="verifyAuthentificForm"/>
+          <include name="fillInSignupForm1"/>
         </methods>
-      </class> <!-- Sprint1.Day1 -->
+      </class> <!-- Sprint1.Day2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
