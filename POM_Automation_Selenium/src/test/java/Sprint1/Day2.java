@@ -204,11 +204,11 @@ public void fillInSignupForm1() {
 
 
 
-/*@AfterTest
+@AfterTest
 	    public void quit() {
 	    driver.close();
 	
-	}*/
+	}
 
 }
 
