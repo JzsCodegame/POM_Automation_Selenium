@@ -12,6 +12,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+@Test
 public class Day2 {
 	 public String baseUrl = "http://automationpractice.com/index.php";
 	    String driverPath = "C:\\Users\\jzo_0\\eclipse-workspace\\SElenium_4\\chromedriver.exe";
