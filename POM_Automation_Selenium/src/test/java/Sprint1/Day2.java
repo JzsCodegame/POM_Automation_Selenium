@@ -189,7 +189,7 @@ public void fillInSignupForm1() {
 	    String MobileValue = driver.findElement(By.cssSelector("#phone_mobile")).getAttribute("value");
 	    Assert.assertEquals("8134568520", MobileValue);
 	    
-	    //WebElement Assignanaddress = driver.findElement(By.cssSelector("#alias"));
+	    
 	    int Assignanaddressverf = driver.findElements(By.xpath("//input[@type='text' and @id='alias']")).size();
 
 	    if (Assignanaddressverf==1) {
@@ -204,11 +204,11 @@ public void fillInSignupForm1() {
 
 
 
-//@AfterTest
-	 //   public void quit() {
-	  //  driver.close();
+@AfterTest
+	    public void quit() {
+	    driver.close();
 	
-	//}
+}
 
 }
 
