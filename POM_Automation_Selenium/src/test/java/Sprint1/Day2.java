@@ -38,7 +38,7 @@ public void getUrl() {
 	 
 }
 
-@Test(priority =1, invocationCount =2)
+@Test(priority =1)
 public void fillInSignupForm1() {
 	
 	WebElement Signin = driver.findElement(By.xpath("//*[@class='login']"));
