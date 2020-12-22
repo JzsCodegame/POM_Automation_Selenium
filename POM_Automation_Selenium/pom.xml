@@ -72,7 +72,8 @@
 <version>2.19.1</version>  
 <configuration>  
 <suiteXmlFiles>  
-<suiteXmlFile>C:\Users\jzo_0\eclipse-workspace1\POM_Automation_Selenium\testng.xml</suiteXmlFile>  
+<suiteXmlFile>C:\Users\jzo_0\eclipse-workspace1\POM_Automation_Selenium\testng.xml</suiteXmlFile>
+<suiteXmlFile>C:\Users\jzo_0\eclipse-workspace1\POM_Automation_Selenium\groups.xml</suiteXmlFile>    
 </suiteXmlFiles>  
 </configuration>  
 </plugin> 
